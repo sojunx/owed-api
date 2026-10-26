@@ -10,3 +10,8 @@ spring:
   flyway:
     enabled: true
     locations: classpath:db/migration
+
+application:
+  jwt:
+    secret: qgm+yz6Duep1peY2NfeUnTKImT5PaDmwDR83RyN7F0I=
+    expiration: 604800
