@@ -13,5 +13,5 @@ spring:
 
 application:
   jwt:
-    secret: qgm+yz6Duep1peY2NfeUnTKImT5PaDmwDR83RyN7F0I=
-    expiration: 604800
+    secret: ${SPRING_JWT_SECRET:qgm+yz6Duep1peY2NfeUnTKImT5PaDmwDR83RyN7F0I=}
+    expiration: ${SPRING_JWT_EXPIRATION:604800}
